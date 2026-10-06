@@ -1,0 +1,13 @@
+COME OTTENERE L'EXE (circa 5 minuti, nessuna installazione sul PC)
+
+1) Vai su https://github.com e crea un account gratuito (se non l'hai).
+2) Clicca "+" in alto a destra > "New repository". Nome: ombra-cremisi. Clicca "Create repository".
+3) Nella pagina del repository clicca "uploading an existing file".
+4) Trascina dentro TUTTO il contenuto di questa cartella (anche la cartella nascosta .github, game, main.js, package.json). Clicca "Commit changes".
+5) Vai nella scheda "Actions". Aspetta il pallino verde (2-4 minuti).
+6) Clicca sull'esecuzione, in fondo "Artifacts" > "OmbraCremisi-exe": scarichi uno zip con OmbraCremisi.exe dentro.
+7) Estrai e fai doppio clic su OmbraCremisi.exe. Tasto F11 = schermo intero.
+
+Se la cartella .github non viene caricata col trascinamento: nel repository clicca "Add file" > "Create new file",
+scrivi come nome  .github/workflows/build.yml  e incolla il contenuto del file build.yml.
+Windows potrebbe mostrare "Windows ha protetto il PC" (l'exe non è firmato): clicca "Ulteriori informazioni" > "Esegui comunque".
